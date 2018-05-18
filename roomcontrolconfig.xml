@@ -1,0 +1,43 @@
+﻿<Extensions>
+  <Version>1.5</Version>
+  <Panel>
+    <PanelId>panel_1</PanelId>
+    <Type>Statusbar</Type>
+    <Icon>Camera</Icon>
+    <Order>1</Order>
+    <Name>Webcam Mode</Name>
+    <Page>
+      <Name>Webcam Mode</Name>
+      <Row>
+        <Name>Webcam Mode</Name>
+        <Widget>
+          <WidgetId>toggle_UJ</WidgetId>
+          <Type>ToggleButton</Type>
+          <Options>size=1</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Dial-In Info</Name>
+        <Widget>
+          <WidgetId>dialin_txt</WidgetId>
+          <Name>Current Dial-In Number:  NONE</Name>
+          <Type>Text</Type>
+          <Options>size=4</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>enterPhone</WidgetId>
+          <Name>Enter Dial-In Number</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>dial</WidgetId>
+          <Name>Dial</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Options/>
+    </Page>
+  </Panel>
+</Extensions>
